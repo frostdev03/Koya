@@ -19,4 +19,9 @@ public class Buttons : MonoBehaviour
     {
         SceneManager.LoadScene("HelpScene");
     }
+
+        public void ToMain()
+    {
+        SceneManager.LoadScene("MainMenuScene");
+    }
 }
